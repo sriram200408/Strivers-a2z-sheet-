@@ -3,6 +3,11 @@ package Arrays.Medium;
 import java.util.Scanner;
 
 public class maximumsubarraysum {
+
+    // Kadane's Algorithm 
+    // Time complexity is O(n)
+    // Space complexity is O(1)
+    
     static int maxsubsum(int[] arr){
         int currsum = arr[0];
         int maxsubsum = arr[0];
