@@ -24,5 +24,6 @@ public class powerfunction{
 
          double ans = solution.power(ele,pow);
         System.out.println("The power is " + ans);
+        sc.close();
     }
 }
