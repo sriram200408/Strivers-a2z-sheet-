@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Collections;
 
 class leadersinarray{
- static ArrayList leaders(int[] arr){
+ static ArrayList<Integer> leaders(int[] arr){
     ArrayList<Integer> ans = new ArrayList<>();
     int max = arr[arr.length-1];
     ans.add(max);
@@ -30,5 +30,6 @@ ans.add( arr[i]);
         System.out.print(ans.get(idx) + " ");
         idx++;
     }
+    sc.close();
  }
 }
