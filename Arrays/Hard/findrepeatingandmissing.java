@@ -27,6 +27,12 @@ public class findrepeatingandmissing {
         return ans;
     }
 
+    //Floyd Cycle detection algorithm
+    //TIme complexity = O(n)
+    //Space complexity = O(1)
+
+    
+
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
