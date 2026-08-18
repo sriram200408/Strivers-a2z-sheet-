@@ -58,10 +58,10 @@ public class LinkedlistQueueimplementation {
     public static void main(String[] args) {
          LinkedListQueue q = new LinkedListQueue();
 
-        // Array of commands
+       
         String[] commands = {"LinkedListQueue", "push", "push", 
                              "peek", "pop", "isEmpty"};
-        // Array of inputs
+        
         int[][] inputs = {{}, {3}, {7}, {}, {}, {}};
 
         for (int i = 0; i < commands.length; ++i) {
